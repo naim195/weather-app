@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Weather in:</h1>
-
     <div class="container">
-        
+        <h1>Weather in:</h1>
+        <div class="input-container"><input type="text" id="place" placeholder="Enter city name"/><button id="search-btn">Get the weather!!</button></div>
+
         <div class="main-container">
-            <input type="text" id="place" placeholder="Enter city name"/><button id="search-btn">Get the weather!!</button>
             <div class="city-name"></div>
-            <div class="main"></div>
-            <div class="description"></div>
-            <div class="temp-container">
-                <div class="temp"> </div>
-                <button id="convert">Show in °F</button>
-                <img src="#" alt="">
+            <div class="weather-container">
+                <div class="temp-container">
+                    <div class="temp">Temp </div>
+                    <button id="convert">Show in °F</button>
+                    
+                </div>                
+                <div class="weather-description">
+                    <div class="main">ggdd</div>
+                    <div class="description">bbb</div>
+                </div>
+                
             </div>
+            <img src="#" alt="weather logo">
         </div>
         
         <div class="remaining">
@@ -30,8 +35,8 @@
             <div class="humidity">Humidity: </div>
         </div>
     </div>
-    <div class="footer">Photo by <a href="https://unsplash.com/@noaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NOAA</a> on <a href="https://unsplash.com/photos/three-rocks-near-duck-in-water-99F4mC79j1I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-    </div>
+
+    
     <script src="script.js"></script>
 </body>
 </html>
